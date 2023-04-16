@@ -1,26 +1,96 @@
 {
-    "name": "resident evil 4",
+    "name": "Resident Evil 4",
     "id": "CUSA04885",
     "version": "01.00",
     "process": "eboot.bin",
     "mods": [
         {
             "name": "Infinite Health",
+            "hint": null,
             "type": "checkbox",
             "memory": [
                 {
-                    "offset": "8FA020",
-                    "on": "0FBF881850000066C78018500000E01566C7801A500000E015E9D39472FF",
-                    "off": "000000000000000000000000000000000000000000000000000000000000"
-                },
-                {
-                    "offset": "2350A",
-                    "on": "E9116B8D009090",
-                    "off": "0FBF8818500000"
+                    "offset": "208A26",
+                    "on": "90909090909090",
+                    "off": "66898818500000"
                 }
             ]
         },
         {
+            "name": "Infinite Ammo",
+            "hint": null,
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2e208e",
+                    "on": "909090",
+                    "off": "894306"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Inventory Ammo",
+            "hint": null,
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2e0dee",
+                    "on": "6641014f02",
+                    "off": "6641894f02"
+                }
+            ]
+        },
+        {
+            "name": "99999999 PTAS",
+            "hint": null,
+            "type": "button",
+            "memory": [
+                {
+                    "offset": "1031C7C",
+                    "on": "FFE0F505",
+                    "off": "FFE0F505"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Inventory Ammo (NOP)",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2E0DEC",
+                    "on": "9090",
+                    "off": "29C1"
+                }
+            ]
+        },
+		        {
+            "name": "Matrix",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2B5C73",
+                    "on": "C5FA104F01",
+                    "off": "C5FA104F04"
+                }
+            ]
+        },
+				        {
+            "name": "Change starting Hangun to P.R.L. 412",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "2041407D8",
+                    "on": "0602",
+                    "off": "0201"
+                },
+				                {
+                    "offset": "2041407CE",
+                    "on": "41",
+                    "off": "23"
+                }
+            ]
+        },
+		        {
             "name": "Invisible",
             "type": "checkbox",
             "memory": [
@@ -37,7 +107,7 @@
             ]
         },
         {
-            "name": "Walkthrough Walls",
+            "name": "Walk Through Walls",
             "type": "checkbox",
             "memory": [
                 {
@@ -47,7 +117,7 @@
                 }
             ]
         },
-        {
+		        {
             "name": "Player Not Easy To Shake",
             "type": "checkbox",
             "memory": [
@@ -59,7 +129,7 @@
             ]
         },
         {
-            "name": "Enemy Frezee",
+            "name": "Enemy Freeze",
             "type": "checkbox",
             "memory": [
                 {
@@ -71,7 +141,7 @@
         },
         {
             "name": "Speed Normal",
-            "type": "checkbox",
+            "type": "button",
             "memory": [
                 {
                     "offset": "8FA0C0",
@@ -87,7 +157,7 @@
         },
         {
             "name": "Speed 3x",
-            "type": "checkbox",
+            "type": "button",
             "memory": [
                 {
                     "offset": "8FA100",
@@ -103,7 +173,7 @@
         },
         {
             "name": "Speed 5x",
-            "type": "checkbox",
+            "type": "button",
             "memory": [
                 {
                     "offset": "8FA070",
@@ -119,7 +189,7 @@
         },
         {
             "name": "Change Character Size To Normal",
-            "type": "checkbox",
+            "type": "button",
             "memory": [
                 {
                     "offset": "8FA1A0",
@@ -135,7 +205,7 @@
         },
         {
             "name": "Change Character Size To Big",
-            "type": "checkbox",
+            "type": "button",
             "memory": [
                 {
                     "offset": "8FA140",
@@ -148,9 +218,341 @@
                     "off": "C4C17A108424BC000000"
                 }
             ]
+        },
+        {
+            "name": "Infinite Health All Players",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7FC57AB0",
+                    "on": "0F4EDA90E9550F5B80",
+                    "off": "000000000000000000"
+                },
+                {
+                    "offset": "208A09",
+                    "on": "E9A2F0A47F",
+                    "off": "0F4EDA29DA"
+                },
+                {
+                    "offset": "7FC57870",
+                    "on": "0F4ECA90E9FD115B80",
+                    "off": "000000000000000000"
+                },
+                {
+                    "offset": "208A71",
+                    "on": "E9FAEDA47F",
+                    "off": "0F4ECA29CA"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Clip Ammo",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7FC57F50",
+                    "on": "90E99D8E6880",
+                    "off": "000000000000"
+                },
+                {
+                    "offset": "2E0DEE",
+                    "on": "E95D71977F",
+                    "off": "6641894F02"
+                }
+            ]
+        },
+        {
+            "name": "No Reload",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7FC57F40",
+                    "on": "09C890E949A16880",
+                    "off": "0000000000000000"
+                },
+                {
+                    "offset": "2E208C",
+                    "on": "E9AF5E977F",
+                    "off": "09C8894306"
+                }
+            ]
+        },
+        {
+            "name": "Save Always 0",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "7FC57E90",
+                    "on": "C6800050000000E90EC96480",
+                    "off": "000000000000000000000000"
+                },
+                {
+                    "offset": "2A47A3",
+                    "on": "E9E8369B7F9090",
+                    "off": "66898800500000"
+                }
+            ]
+        },
+        {
+            "name": "Attache Case XL (Activate B4 Starting The Game)",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "740806",
+                    "on": "7F",
+                    "off": "AD"
+                }
+            ]
+        },
+        {
+            "name": "Infinite R. Launcher (Put Handgun In The Center)",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "6D00",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Infinite Chicago Typewriter (Put Handgun In The Center)",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "3400",
+                    "off": "2300"
+                },
+                {
+                    "section": "21",
+                    "offset": "7407D4",
+                    "on": "0660",
+                    "off": "0000"
+                }
+            ]
+        },
+        {
+            "name": "P.R.L 412 (Put Handgun In The Center)",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "4100",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Handgun",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2300",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Punisher",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2100",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Red9",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2500",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Blacktail",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2700",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Broken Butterfly",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2900",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "TMP",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "3000",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Mine Thrower",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "3600",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Handcannon",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "3700",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Shotgun",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "4700",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Krauser's Bow",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "5200",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Bowgun",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "1000",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Matilda",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "0300",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Riot Gun",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "9400",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Killer 7",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2A00",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Striker",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2D00",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Rifle (Put Handgun In The Center)",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2E00",
+                    "off": "2300"
+                }
+            ]
+        },
+        {
+            "name": "Rifle Semi Auto",
+            "type": "button",
+            "memory": [
+                {
+                    "section": "21",
+                    "offset": "7407CE",
+                    "on": "2F00",
+                    "off": "2300"
+                }
+            ]
         }
     ],
     "credits": [
-        "Tyler"
+        "TylerMods + Gatot Kaca + Celogamez_9.00"
     ]
 }
